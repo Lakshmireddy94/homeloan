@@ -1,0 +1,111 @@
+
+.carousel-caption{
+    text-align: start;
+    left: 120px;
+    bottom: 30%;
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f6f7f9;
+}
+/* Header section style starts here */
+#header{
+    background-color: orangered;
+}
+#header a{
+    color: white;
+}
+/* Navbar style starts here */
+nav{
+    background: lightgrey;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+nav a{
+    color: rgba(255, 0, 0, 0.732);
+}
+/* Banner section style starts here */
+.carousel-inner img{
+    height: 400px;
+}
+.carousel-caption{
+    text-align: start;
+    top: 100px;
+    left: 100px ;
+}
+
+/* Offer Section Start */
+
+#offer a{
+    color: orangered;
+}
+#offer .title::after{
+    content: "";
+    margin: 40px auto;
+    background-color: rgba(255, 0, 0, 0.591);
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 60px;
+}
+#offer{
+    padding:30px 0;
+}
+/* Appliction Section styles Start */
+#app{
+    padding:  30px 0;
+}
+
+#app .title h1{
+    margin-bottom: 10px;
+}
+#app .title::after{
+    content: "";
+    margin: 40px auto;
+    background-color: rgba(255, 0, 0, 0.591);
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 60px;
+}
+#app .row{
+    padding: 0px 60px;
+}
+#app .row .card .card-header i{
+    color: orangered;
+    margin-right: 10px;
+}
+/* news section style starts here */
+#news{
+    padding: 30px;
+    margin: 30px;
+}
+#news .title{
+    margin: 20px auto;
+}
+#news  img{
+    transition: all ease 2s;
+}
+#news  img:hover{
+    transform: scale(1.5);
+}
+#news .parent{
+    overflow: hidden;
+}
+#footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.rights{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
